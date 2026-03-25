@@ -45,4 +45,21 @@
 
 # React DOM Node
 * React 애플리케이션의 시작점 역할
-* 
+```
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+const root = ReactDOM.createRoot(document.getElementById("root")); // ✅
+Root DOM Node 선택
+root.render(<App />); // ✅ App 컴포넌트를 Root DOM Node 내부에 렌더링
+```
+1. document.getElementById("root")를 통해 Root DOM Node를 선택한다.
+2. ReactDOM.createRoot()를 사용하여 React 애플리케이션을 Root DOM Node에 연결한다.
+3. root.render(<App />)을 호출하여 React 컴포넌트(App.js)를 Root DOM Node에 렌더링한다.
+
+# index.html, index.js, App.js
+pdf 그림 이해
+
+# React Frontend Application
+
+# React로 DOM 변경하기
