@@ -12,3 +12,5 @@
   항상 대문자로 시작해야한다. 소문자로 시작하는 Component를 DOM 태그로 인식하기 때문이다.
 
 ## Props (Props 위주로 진도 나갔음)
+
+## Component
