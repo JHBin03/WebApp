@@ -26,3 +26,4 @@ function class의 한계 -> function component로 변경되었다.
 * 리액트에서의 state는 리액트 component의 상태를 의미한다.
 * 객체 값이 바뀌면 화면도 자동으로 바뀐다.
  
+pdf 21페이지 class component까지.
